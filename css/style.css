@@ -1,0 +1,254 @@
+/* Event Start */
+
+#event
+{
+    width: 100%;
+    height: 660px;
+    background-image: url(../imeges/events-heavenly-header.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #FFF;
+    position: relative;
+}
+
+#event h2
+{
+ margin-top: 200px;
+    font-size: 60px;
+
+}
+
+#event h2,p
+{
+    text-align: center;
+}
+
+.overlay
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+
+.sidenav 
+{
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 435654;
+    top: 0;
+    left: 0;
+    background-color: #414658;
+    transition: 0.5s;
+    padding-top: 60px;
+    display: none;
+}
+
+
+.sidenav a 
+{
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    transition: 0.3s;
+    color: white;
+    display: block;
+}
+
+.sidenav a:hover
+{
+    color:  rgba(214, 46, 51 , 0.4);
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+/* Event End */
+
+/* Accordion Start */
+#acc
+{
+    margin: 100px auto;
+    width: 50%;
+    
+}
+
+#acc h3
+{
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+    cursor: pointer;
+    color: white;
+}
+
+#acc div
+{
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+}
+
+/* Accordion End */
+/* Counter Start */
+#countsec
+{
+    background-image: url(../imeges/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    height: 330px;
+}
+
+#countsec .ov-rel
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+    color: white;
+}
+
+#countsec .ov-rel .container
+{
+    padding: 100px 0px;
+}
+
+#countsec .ov-rel .container .tim
+{
+    padding: 50px;
+    border: 1px solid #FFF;
+    
+}
+
+/* Counter End */
+/*Hire Start*/
+
+#Hire
+{
+   margin-top: 100px;
+}
+
+#Hire .container
+{
+    padding: 100px 0px;
+}
+
+
+#Hire .head h2
+{
+    text-transform: uppercase;
+    font-size: 35px;
+    color:#444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#Hire .head p
+{
+    color:#777;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+#Hire .info h3
+{
+    color:#444;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#Hire .info p
+{
+    font-size: 16px;
+    line-height: 26px;
+    color:#777;
+}
+
+#Hire .icons
+{
+    margin-top:50px;
+}
+
+#Hire .icons p
+{
+    margin-bottom: 35px;
+}
+
+#Hire i
+{
+    margin-right: 20px;
+    color:#777;
+}
+
+#Hire .red
+{
+    color: #D62E33;
+}
+
+#Hire  .social
+{
+     margin-top:60px;
+    color:#777;
+}
+
+#Hire  .social i
+{
+    margin-right: 10px;
+    border:1px solid #999;
+    width:40px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#Hire  .social i:hover
+{
+    color:#fff;
+    background-color: #D62E33;
+    border:1px solid #D62E33;
+}
+
+
+#Hire form input,
+#Hire form textarea
+{
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+
+
+
+
+#Hire form textarea{
+    height: 200px;
+    resize:vertical;
+}
+
+#Hire form button{
+    background-color: #D62E33;
+    color:#fff;
+    padding:10px 20px;
+    border-radius: 0;
+    text-transform: uppercase
+}
+
+#my-span
+{
+    font-size: 20px;
+    color: #D62E33;
+}
+/*Hire End*/
